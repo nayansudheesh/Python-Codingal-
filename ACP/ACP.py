@@ -1,0 +1,11 @@
+birthday_1 = input("Enter your first friends birthyear , month , and day")
+birthday_2 = input("Enter your second friends birthyear , month , and day")
+birthday_3 = input("Enter your third friends birthyear , month , and day")
+birthday_4 = input("Enter your fourth friends birthyear , month , and day")
+birthday_5 = input("Enter your 5th friends birthyear , month , and day")
+
+print("Your 1st friends birthday is" ,  birthday_1)
+print("Your 2nd friends birthday is" ,  birthday_2)
+print("Your 3rd friends birthday is" ,  birthday_3)
+print("Your 4th friends birthday is" ,  birthday_4)
+print("Your 5th friends birthday is" ,  birthday_5)
