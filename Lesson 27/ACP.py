@@ -5,14 +5,14 @@ class BMW(car):
     def maxspeed_fuel(self, maxspeed , fuel):
         self.maxspeed = maxspeed
         self.fuel = fuel
-        print(f"the maximum fuel a BMW can contain  is {fuel} L  and its maxspeed is {maxspeed} km/h")
+        print(f"the  fuel type  a BMW   is {fuel}   and its maxspeed is {maxspeed} km/h")
 class Ferrari(car):
     def maxspeed_fuel(self, maxspeed , fuel):
         self.maxspeed = maxspeed
         self.fuel = fuel
-        print(f"the maximum fuel a ferrari can contain  is {fuel} L  and its maxspeed is {maxspeed} km/h")
+        print(f"the  fuel type of  a ferrari   is {fuel}   and its maxspeed is {maxspeed} km/h")
 
 c1 = BMW()
-c1.maxspeed_fuel(150, 100)
+c1.maxspeed_fuel(150, "disel")
 c2 = Ferrari()
-c2.maxspeed_fuel(300 , 90)
+c2.maxspeed_fuel(300 , "petrol")
